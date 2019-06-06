@@ -9,7 +9,7 @@
                     <iframe width="700" height="455" src="https://www.youtube.com/embed/Mz0epi24L0E?&autoplay=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class="action-btns">
-                    <g-link to="/" class="webinar-btn">View Webinar</g-link>
+                    <g-link to="/webinar" class="webinar-btn">View Webinar</g-link>
                 </div>
             </div>
         </div>
@@ -18,7 +18,10 @@
 
 <script>
 export default {
- name: 'Thanks'
+ name: 'Thanks',
+ metaInfo: {
+    title: 'Thank You!'
+  },
 }
 </script>
 

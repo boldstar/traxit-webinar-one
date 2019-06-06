@@ -16,7 +16,10 @@
 
 <script>
 export default {
-    name: 'Webinar'
+    name: 'Webinar',
+    metaInfo: {
+        title: 'Webinar Video'
+    },
 }
 </script>
 

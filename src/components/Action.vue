@@ -6,12 +6,12 @@
         <div id="mc_embed_signup">
             <form action="https://traxit.us20.list-manage.com/subscribe/post?u=554da9b25bb5346ae99219141&amp;id=d85b539abe" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                 <div id="mc_embed_signup_scroll">
-                <input type="text" value="" name="MMERGE1" class="required mailchimp-input" id="mce-MMERGE1" placeholder="First Name">
-                <input type="text" value="" name="MMERGE2" class="required mailchimp-input" id="mce-MMERGE2" placeholder="Last Name">
-                <input ref="mailchimp" type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Email Address" class="mailchimp-input" required>
-                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_554da9b25bb5346ae99219141_d85b539abe" tabindex="-1" value=""></div>
-                <div class="clear"><input type="submit" value="Register" name="subscribe" id="mc-embedded-subscribe" class="registration-btn"></div>
+                    <input type="text" value="" name="MMERGE1" class="required mailchimp-input" id="mce-MMERGE1" placeholder="First Name" required>
+                    <input type="text" value="" name="MMERGE2" class="required mailchimp-input" id="mce-MMERGE2" placeholder="Last Name" required>
+                    <input ref="mailchimp" type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Email Address" class="required mailchimp-input" required>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_554da9b25bb5346ae99219141_d85b539abe" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Register" name="subscribe" id="mc-embedded-subscribe" class="registration-btn"></div>
                 </div>
             </form>
         </div>
