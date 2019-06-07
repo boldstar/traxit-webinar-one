@@ -55,4 +55,24 @@ export default {
         color: var(--white);
     }
 
+    @media screen and (max-width: 767px) {
+        .logo-img {
+            height: 30px;
+        }
+
+        nav p {
+            font-size: 1rem;
+        }
+    }
+
+    @media screen and (max-width: 450px) {
+        nav p {
+            display: none;
+        }
+
+        .navbar {
+            justify-content: center;
+        }
+    }
+
 </style>

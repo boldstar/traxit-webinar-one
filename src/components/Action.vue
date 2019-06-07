@@ -76,4 +76,28 @@ export default {
         margin: 0 auto;
         font-size: 1.1rem;
     }
+
+    @media screen and (max-width: 1150px) {
+        form {
+            max-width: 600px;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 0!important;
+        }
+
+        .action {
+            margin-left: 0;
+        }
+
+        .testimonial {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+        form {
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
 </style>

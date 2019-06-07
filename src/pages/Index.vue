@@ -29,4 +29,10 @@ export default {
   margin: 0 auto;
   height: 100vh;
 }
+
+@media screen and (max-width: 1150px) {
+  .hero {
+    flex-direction: column;
+  }
+}
 </style>
