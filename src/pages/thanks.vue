@@ -6,7 +6,7 @@
                     Thank you for signing up!
                 </h1>
                 <div class="thanks-video">
-                    <iframe width="700" height="455" src="https://www.youtube.com/embed/Mz0epi24L0E?&autoplay=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/Mz0epi24L0E?&autoplay=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class="action-btns">
                     <g-link to="/webinar" class="webinar-btn">View Webinar</g-link>
@@ -65,5 +65,32 @@ export default {
 
     .webinar-btn:hover {
         font-size: 1.28rem;
+    }
+
+    .thanks-video iframe {
+        width: 700px;
+        height: 455px;
+    }
+
+    @media screen and (max-width: 800px) {
+        .thanks-video iframe {
+            width: 500px;
+            height: 355px;
+        }
+
+    }
+
+    @media screen and (max-width: 800px) {
+        .thanks-video iframe {
+            width: 300px;
+            height: 200px;
+        }
+
+        .thanks-header {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--white);
+        }
+
     }
 </style>

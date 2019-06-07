@@ -33,7 +33,7 @@ export default {
         .youtube-video {
             max-width: 550px;
             width: 100%;
-            height: auto;
+            height: 250px;
         }
     }
 </style>

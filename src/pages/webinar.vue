@@ -5,7 +5,9 @@
                 <h1 class="webinar-header">
                     Welcome to the webinar!
                 </h1>
-                <iframe width="1060" height="615" src="https://www.youtube.com/embed/Mz0epi24L0E?&autoplay=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="webinar-video">
+                    <iframe width="1060" height="615" src="https://www.youtube.com/embed/Mz0epi24L0E?&autoplay=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
                 <div class="start">
                     <a href="https://traxit.io/trial" class="free-trial-btn">Start FREE Trial</a>
                 </div>
@@ -82,5 +84,60 @@ export default {
     font-size: 3rem;
     font-weight: bold;
     color: var(--white);
+}
+
+@media screen and (max-width: 800px) {
+    .webinar-header {
+        font-size: 1.5rem;
+    }
+
+    .webinar-video {
+        width: 800px;
+        max-width: 600px;
+        height: auto;
+    }
+
+    .webinar-video iframe {
+        width: 100%;
+        max-width: 600px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .webinar-video {
+        width: 500px;
+        height: auto;
+    }
+
+    .webinar-video iframe {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+
+    .webinar-video {
+        width: 400px;
+        height: auto;
+    }
+
+    .webinar-video iframe {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .webinar-video {
+        width: 300px;
+    }
+
+    .webinar-video iframe {
+        width: 100%;
+        height: 200px;
+    }
 }
 </style>

@@ -71,7 +71,7 @@ export default {
     .testimonial {
         position: absolute;
         bottom: 130px;
-        left: 28%;
+        left: 100px;
         max-width: 900px;
         margin: 0 auto;
         font-size: 1.1rem;
