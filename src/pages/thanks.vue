@@ -6,7 +6,7 @@
                     Thank you for signing up!
                 </h1>
                 <div class="thanks-video">
-                    <iframe src="https://www.youtube.com/embed/Mz0epi24L0E?&autoplay=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/CdlbUJrz7Vs?&autoplay=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class="action-btns">
                     <g-link to="/webinar" class="webinar-btn">View Webinar</g-link>

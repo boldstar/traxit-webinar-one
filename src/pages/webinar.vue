@@ -6,7 +6,7 @@
                     Welcome to the webinar!
                 </h1>
                 <div class="webinar-video">
-                    <iframe width="1060" height="615" src="https://www.youtube.com/embed/Mz0epi24L0E?&autoplay=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="1060" height="615" src="https://www.youtube.com/embed/6mTHZBwaSSQ?&autoplay=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class="start">
                     <a href="https://traxit.io/trial" class="free-trial-btn">Start FREE Trial</a>
